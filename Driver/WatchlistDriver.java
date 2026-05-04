@@ -1,6 +1,15 @@
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*  
+* Mayson Robinson - MRobinson32  
+* CIS171 Online
+* Date: 5/4/2026
+* Operating System: Windows 11 
+* IDE: Visual Studio
+* Program Description(short):
+* Final project for java, create a watchlist for movies and Tv shows
+* Resources used: https://www.w3schools.com/
+*/
 public class WatchlistDriver {
     public static String capitalize(String text) {
         return text.substring(0, 1).toUpperCase() + text.substring(1);
