@@ -35,7 +35,7 @@ public class Watchlist {
         }
     }
 
-    public void additem(ListItem item) {
+    public void addItem(ListItem item) {
         if (item == null) {
             System.out.println("Invalid item");
             return;
@@ -67,7 +67,7 @@ public class Watchlist {
         }
     }
 
-    public void markfinished(String title, String type) {
+    public void markFinished(String title, String type) {
         if (title == null || title.isEmpty()) {
             System.out.println("Invalid title");
             return;
@@ -98,7 +98,7 @@ public class Watchlist {
         }
     }
 
-    public ListItem[] getitems() {
+    public ListItem[] getItems() {
         return items;
     }
 
