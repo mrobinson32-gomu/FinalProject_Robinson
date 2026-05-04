@@ -41,7 +41,7 @@ public class WatchlistDriver {
             }
 
             while (true) {
-                System.out.print("Add, Finish or End?");
+                System.out.print("Add, Finish or End? ");
                 String action = scnr.nextLine().toLowerCase();
 
                 if (action.equals("end")){
