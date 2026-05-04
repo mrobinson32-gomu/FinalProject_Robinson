@@ -65,7 +65,7 @@ public class ListFiles {
     }
 
     public static void saveFinished(String username, String type, ListItem item) {
-        try (PrintWriter writer = new PrintWriter(new FileWriter(username + "_finsihed_" + type + ".txt", true))) {
+        try (PrintWriter writer = new PrintWriter(new FileWriter(username + "_finished_" + type + ".txt", true))) {
             writer.println(item.getTitle());
         }
         catch (IOException e) {
@@ -94,10 +94,10 @@ public class ListFiles {
     }
 
     public static void printFinishedWatchlistFile(String username, String type) {
-        File file = new File(username + "_finsihed_" + type + ".txt");
+        File file = new File(username + "_finished_" + type + ".txt");
 
         if(!file.exists()) {
-            System.out.println("No finsihed " + type + ":");
+            System.out.println("No finished " + type + ":");
             return;
         }
 
