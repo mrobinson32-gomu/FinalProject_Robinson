@@ -85,7 +85,7 @@ public class ListFiles {
             String line;
 
             while ((line = reader.readLine()) != null) {
-                System.out.print(line);
+                System.out.println(line);
             }
         }
         catch (IOException e) {
