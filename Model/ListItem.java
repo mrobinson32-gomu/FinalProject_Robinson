@@ -33,6 +33,10 @@ public abstract class ListItem {
 
     public abstract String getType();
 
+    @Override public String toString() {
+        return title;
+    }
+
     @Override
     public boolean equals(Object obj) {
         if (obj instanceof ListItem) {
